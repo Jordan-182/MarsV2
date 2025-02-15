@@ -19,7 +19,7 @@ body {
 
 .btn-container {
   width: 600px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -38,4 +38,19 @@ body {
 .btn-container button:hover {
   background: var(--secondary-color);
   color: var(--primary-color);
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.mars-photo {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
