@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #121212;
+  --secondary-color: #fffffc;
+  --title-font: "Roboto", sans-serif;
+  --text-font: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--text-font);
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.title {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.btn-container {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.btn-container button {
+  width: 100px;
+  padding: 15px 0;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-container button:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
