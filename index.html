@@ -15,10 +15,93 @@
     <title>Mars Pictures</title>
   </head>
   <body>
-    <h1 class="title">Mars Rovers</h1>
-    <section class="btn-container">
-      <button class="curiosity-btn">Curiosity</button>
+    <h1 class="title">Curiosity : Le Rover Explorateur de Mars</h1>
+    <p class="intro">
+      Lancé le 26 novembre 2011 par la NASA et arrivé sur Mars le 6 août 2012,
+      Curiosity est un rover de la mission Mars Science Laboratory (MSL). Sa
+      mission principale : explorer le cratère Gale et analyser la surface
+      martienne afin de déterminer si la planète rouge a pu abriter des
+      conditions favorables à la vie.
+    </p>
+    <section class="card-container">
+      <article class="card">
+        <h2>Un laboratoire roulant sur Mars</h2>
+        <p>
+          Curiosity est bien plus qu’un simple véhicule d’exploration. C’est un
+          véritable laboratoire scientifique mobile, équipé de nombreux
+          instruments avancés, dont :
+        </p>
+        <ul>
+          <li>
+            - <span class="bold">Mastcam</span> : un système de caméras pour
+            capturer des images en haute résolution.
+          </li>
+          <li>
+            - <span class="bold">ChemCam</span> : un laser capable d’analyser la
+            composition des roches.
+          </li>
+          <li>
+            - <span class="bold">SAM (Sample Analysis at Mars)</span> : un
+            mini-laboratoire permettant d’étudier les échantillons prélevés.
+          </li>
+          <li>
+            - <span class="bold">RAD (Radiation Assessment Detector)</span> : un
+            capteur mesurant les radiations à la surface de Mars.
+          </li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>Les grandes découvertes de Curiosity</h2>
+        <p>
+          Depuis son arrivée sur Mars, Curiosity a révolutionné notre
+          compréhension de la planète rouge. Parmi ses découvertes majeures :
+        </p>
+        <ul>
+          <li>
+            -
+            <span class="bold">Des traces d’anciennes rivières et de lacs</span>
+            : des analyses du sol et des roches ont révélé la présence passée
+            d’eau liquide, confirmant que Mars a connu un environnement
+            potentiellement habitable.
+          </li>
+          <li>
+            - <span class="bold">Des molécules organiques</span> : en 2018, le
+            rover a détecté des composés organiques dans les sédiments martiens,
+            une avancée cruciale dans la quête de signes de vie passée.
+          </li>
+          <li>
+            - <span class="bold">Des variations saisonnières du méthane</span> :
+            l’étude des niveaux de méthane dans l’atmosphère suggère une
+            activité chimique ou biologique encore mystérieuse.
+          </li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>Un rover toujours en activité</h2>
+        <p>
+          Bien que sa mission initiale devait durer deux ans, Curiosity continue
+          d’explorer Mars plus d’une décennie après son atterrissage. Il grimpe
+          actuellement les pentes du Mont Sharp, une montagne située au centre
+          du cratère Gale, afin d’étudier les différentes couches géologiques et
+          d’en apprendre davantage sur l’évolution climatique de la planète.
+        </p>
+      </article>
+      <article class="card">
+        <p>
+          Grâce à l’API de la NASA, vous pouvez découvrir ici les images
+          capturées par Curiosity au fil de son incroyable aventure martienne.
+          🚀🔭
+        </p>
+        <button class="curiosity-btn">Voir les dernières photos</button>
+      </article>
     </section>
     <section class="pictures"></section>
+    <!-- Overlay pour afficher l'image en plein écran -->
+    <div class="image-overlay">
+      <div class="overlay-content">
+        <img src="" alt="Photo en plein écran" class="fullscreen-img" />
+        <button class="close-btn">&times;</button>
+      </div>
+    </div>
   </body>
 </html>
