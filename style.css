@@ -10,7 +10,9 @@ body {
   font-size: 16px;
   font-family: var(--text-font);
   background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),
-    url(src/mars.jpg);
+    url("src/mars.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   color: var(--secondary-color);
 }
